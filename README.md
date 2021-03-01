@@ -11,3 +11,7 @@
 # Automated Modeling with *autogluon*
 * The goal is to do automated modeling with [AutoGluon](https://auto.gluon.ai/stable/index.html#). 
 * *AutoGluon* makes it easy to automatically experiment with a variety of algorithms, from tree ensembles to deep learning and even model stacking.
+
+
+* The model stacking technique achieved the highest predictive performance. This was 0.78149 for the Kaggle public board and 0.78391 for the private board as measured by AUROC.
+* This process took about 1 day and 6 hours to train using 64 cores and 256GB of memory on an AWS m4.16xlarge EC2 instance, and about an hour and a half to infer.
