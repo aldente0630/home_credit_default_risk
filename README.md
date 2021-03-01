@@ -26,4 +26,4 @@
 |LightGBMClassifier_STACKER_l0|0.780356|10.297791|824.519218|
   
 * The model stacking technique achieved the highest predictive performance. This was 0.78149 for the Kaggle public board and 0.78391 for the private board as measured by AUROC.
-* This process took about 1 day and 6 hours to train using 64 cores and 256GB of memory on an AWS `m4.16xlarge` EC2 instance, and about an hour and a half to infer.
+* This process took about 1 day and 6 hours to train on an AWS `m4.16xlarge` EC2 instance with 64 cores and 256GB of memory, and about an hour and a half to infer.
